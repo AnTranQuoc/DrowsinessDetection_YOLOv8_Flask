@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drowsiness Detection</title>
+    <link rel="stylesheet" href="./../static/assets/css/dashboard.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="/static/assets/img/Rhodes_Island_icon.png" alt="logo">
+                </span>
+
+                <div class="text header-text">
+                    <span class="name">Drowsiness</span>
+                    <span class="profession">Detection</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Search...">
+                </li>
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="javascript:void(0);" onclick="document.location='/home'">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="javascript:void(0);" onclick="document.location='/details'">
+                            <i class='bx bx-info-circle icon' ></i>
+                            <span class="text nav-text">Details</Details></span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="javascript:void(0);" onclick="document.location='/Video_Image'">
+                            <i class='bx bx-image-add icon' ></i>
+                            <span class="text nav-text">Upload</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="javascript:void(0);" onclick="document.location='/Webcam'">
+                            <i class='bx bxs-webcam icon' ></i>
+                            <span class="text nav-text">Webcam</span>
+                        </a>
+                    </li>
+                </ul>
+                
+            </div>
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="javascript:void(0);" onclick="document.location='/logout'">
+                        <i class='bx bx-log-out icon' ></i>
+                        <span class="text nav-text">Logout</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <div class="moon-sun">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+
+                    <span class="mode-text text">Dark Mode</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+            </div>
+            
+        </div>
+    </nav>
+
+    <section class="home">
+        <div class="container">
+            <section class="main">
+                <div class="main-top">
+                    <h1>About us</h1>
+                  </div>
+                <section class="main-course">
+                    <div class="course-box">
+                        <div class="course">
+                            <div class="box">
+                                <span class="image">
+                                    <img src="/static/assets/img/avatar1.jpg" alt="logo">
+                                </span>
+                                <h3>Lê Đăng Khoa</h3>
+                                <p>MSSV: 21522222</p>
+                                <button><a href="https://github.com/EpicVN">More</a></button>
+                            </div>
+                            <div class="box">
+                                <span class="image">
+                                    <img src="/static/assets/img/avatar2.jpg" alt="logo">
+                                </span>
+                                <h3>Trần Quốc An</h3>
+                                <p>MSSV: 21521815</p>
+                                <button><a href="https://github.com/AnTranQuoc">More</a></button>
+                            </div>
+                            <div class="box">
+                                <span class="image">
+                                    <img src="/static/assets/img/avatar3.jpg" alt="logo">
+                                </span>
+                                <h3>Lý Ngọc Thành Trung</h3>
+                                <p>MSSV: 21521591</p>
+                                <button><a href="https://github.com/AnTranQuoc">More</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="main-course">
+                    <h1>Example</h1>
+                    <div class="ex-box">
+                        
+                            <div class="box1">
+                                <h3>Input</h3>
+                                <span class="data-img">
+                                    <img src="/static/assets/img/input1.jpg" alt="logo">
+                                </span>
+                                <span class="data-img">
+                                    <img src="/static/assets/img/input2.jpg" alt="logo">
+                                </span>
+                                <span class="data-img">
+                                    <img src="/static/assets/img/input3.jpg" alt="logo">
+                                </span>
+                            </div>
+                            
+                            <div class="box1">
+                                <h3>Output</h3>
+                                <span class="data-img">
+                                    <img src="/static/assets/img/output1.jpg" alt="logo">
+                                </span>
+                                <span class="data-img">
+                                    <img src="/static/assets/img/output2.jpg" alt="logo">
+                                </span>
+                                <span class="data-img">
+                                    <img src="/static/assets/img/output3.jpg" alt="logo">
+                                </span>
+                            </div>
+                        
+                    </div>
+                </section>
+            </section>
+          </div>
+    </section>
+
+    <script src="../static/assets/js/script.js"></script>
+</body>
+</html>
