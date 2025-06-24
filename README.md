@@ -5,8 +5,12 @@ The project uses the Flask library to deloy and uses the YOLOv8 machine learning
 
 ## Features
 ### Object Detection: The application utilizes the trained YOLOv8 model to detect drowsiness face in real-time using the webcam feed.
+
 ### Custom Dataset: The model has been trained on a custom dataset specific to drowsiness face.
+![image](https://github.com/user-attachments/assets/f221fd89-4c2d-475a-a3c1-830467be2827)
+
 ### Flask Web Application: The project is implemented as a Flask web application.
+![image](https://github.com/user-attachments/assets/0f989486-78f1-4d43-b45b-b2347bcde5c5)
 
 ## Installation
 1. Clone the project repository:
