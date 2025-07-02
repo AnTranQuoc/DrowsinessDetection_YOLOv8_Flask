@@ -9,7 +9,7 @@ def video_detection(path_x):
     cap = cv2.VideoCapture(video_capture)
 
     # Load YOLO model to CPU
-    model = YOLO("YOLO-Weights/best.pt").to('cpu')
+    model = YOLO("YOLO-Weights/best.pt").to('cuda')
     classNames = ["Buon_Ngu", "Tinh_Tao"]
 
     while True:
