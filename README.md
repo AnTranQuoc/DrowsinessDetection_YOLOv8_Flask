@@ -3,6 +3,13 @@ Drowsiness Detection
 ## Description
 The project uses the Flask library to deloy and uses the YOLOv8 machine learning algorithm for object detection, specifically targeting the identification of human faces. The purpose of the project is to deal with driving incidents when the driver fell asleep.
 
+## Video demo
+
+
+https://github.com/user-attachments/assets/a4d1f747-009b-4d30-b164-ffa492147819
+
+
+
 ## Features
 ### Object Detection: The application utilizes the trained YOLOv8 model to detect drowsiness face in real-time using the webcam feed.
 
