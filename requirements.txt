@@ -8,6 +8,8 @@ flask_bcrypt
 email_validator
 gunicorn
 dill
+pygame
+werkzeug
 
 # OpenCV for image/video handling
 opencv-python
@@ -16,9 +18,3 @@ opencv-python
 ultralytics
 
 # PyTorch with CUDA 11.8 for GPU support (for RTX 3050Ti and similar)
-torch==2.2.2+cu118
-torchvision==0.17.2+cu118
-torchaudio==2.2.2+cu118
-
-# Use this index to get the CUDA versions
---extra-index-url https://download.pytorch.org/whl/cu118
