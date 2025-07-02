@@ -6,8 +6,10 @@ The project uses the Flask library to deloy and uses the YOLOv8 machine learning
 ## Video demo
 
 
-https://github.com/user-attachments/assets/a4d1f747-009b-4d30-b164-ffa492147819
+https://github.com/user-attachments/assets/b72f9d7f-67a6-4200-b280-3f169e50af19
 
+
+https://github.com/user-attachments/assets/f122a848-e3a9-4bb6-ac62-399f9dde95ad
 
 
 ## Features
