@@ -1,3 +1,4 @@
+# Web App dependencies
 flask
 flask_wtf
 wtforms
@@ -5,7 +6,19 @@ flask_sqlalchemy
 flask_login
 flask_bcrypt
 email_validator
-opencv-python
-ultralytics
 gunicorn
 dill
+
+# OpenCV for image/video handling
+opencv-python
+
+# Ultralytics for YOLOv8
+ultralytics
+
+# PyTorch with CUDA 11.8 for GPU support (for RTX 3050Ti and similar)
+torch==2.2.2+cu118
+torchvision==0.17.2+cu118
+torchaudio==2.2.2+cu118
+
+# Use this index to get the CUDA versions
+--extra-index-url https://download.pytorch.org/whl/cu118
